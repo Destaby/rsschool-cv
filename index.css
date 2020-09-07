@@ -1,0 +1,43 @@
+body {
+  font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+  background: linear-gradient(to bottom right, #b6f7fc, #266557);
+  height: 100vh;
+}
+
+.container {
+  max-width: 1024px;
+  margin: 0 auto;
+}
+
+.flex-display {
+  display: flex;
+  flex-direction: row;
+}
+
+p {
+  text-align: justify;
+}
+
+.left {
+  padding: 0 3rem 0 1rem;
+}
+
+.right > img {
+  width: 300px;
+  margin: 1rem;
+}
+
+a {
+  text-decoration: none;
+  color: #2a2a2a;
+}
+
+a:hover {
+  color: #595959;
+}
+
+@media (max-width: 650px) {
+  body {
+    background: #75b5b2;
+  }
+}
